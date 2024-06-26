@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1b43bcd239f1846e85569ea161a4461 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1b43bcd239f1846e85569ea161a4461" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1b43bcd239f1846e85569ea161a4461 = L.map(
+                "map_a1b43bcd239f1846e85569ea161a4461",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    worldCopyJump: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_097c585fa7c21441ebda05b5570abb3d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_097c585fa7c21441ebda05b5570abb3d.addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+            var circle_4cab75767d4fb50ef5aa844513866154 = L.circle(
+                [15.067, 76.5592],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f315723abdaeb287826388bb03b16ebe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6955dacaf3a953e75afbb67848162b38 = $(`<div id="html_6955dacaf3a953e75afbb67848162b38" style="width: 100.0%; height: 100.0%;">JSW STEEL LIMITED - Vijayanagar: 12.0 Mt</div>`)[0];
+                popup_f315723abdaeb287826388bb03b16ebe.setContent(html_6955dacaf3a953e75afbb67848162b38);
+            
+        
+
+        circle_4cab75767d4fb50ef5aa844513866154.bindPopup(popup_f315723abdaeb287826388bb03b16ebe)
+        ;
+
+        
+    
+    
+            var circle_e5acb4c3d474e9f2167e0330e38182d3 = L.circle(
+                [22.8046, 86.2029],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_63e69ee134c065e285ded91983787851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d38c0b15ea73ec78166f9c5bf8df4891 = $(`<div id="html_d38c0b15ea73ec78166f9c5bf8df4891" style="width: 100.0%; height: 100.0%;">TATA STEEL LIMITED - Jamshedpur: 11.0 Mt</div>`)[0];
+                popup_63e69ee134c065e285ded91983787851.setContent(html_d38c0b15ea73ec78166f9c5bf8df4891);
+            
+        
+
+        circle_e5acb4c3d474e9f2167e0330e38182d3.bindPopup(popup_63e69ee134c065e285ded91983787851)
+        ;
+
+        
+    
+    
+            var circle_4aa4d7c28231cfc0766fe450b8f8d63b = L.circle(
+                [18.7098, 72.9412],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_8ecb49f0129f9adb19d24dd3aad9dd7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71e9ad551329712f299e19f855fae3bc = $(`<div id="html_71e9ad551329712f299e19f855fae3bc" style="width: 100.0%; height: 100.0%;">JSW STEEL LIMITED - Dolvi: 10.0 Mt</div>`)[0];
+                popup_8ecb49f0129f9adb19d24dd3aad9dd7b.setContent(html_71e9ad551329712f299e19f855fae3bc);
+            
+        
+
+        circle_4aa4d7c28231cfc0766fe450b8f8d63b.bindPopup(popup_8ecb49f0129f9adb19d24dd3aad9dd7b)
+        ;
+
+        
+    
+    
+            var circle_478ebaf741bd52ed265d4e593861594d = L.circle(
+                [17.6868, 83.2185],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_04f6b64ed3d3cbec892c6e4bfdb453fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7504c11d2afc9c5bb9dda83e09bc96c = $(`<div id="html_e7504c11d2afc9c5bb9dda83e09bc96c" style="width: 100.0%; height: 100.0%;">RASHTRIYA ISPAT NIGAM LIMITED - Visakhapatnam: 7.3 Mt</div>`)[0];
+                popup_04f6b64ed3d3cbec892c6e4bfdb453fc.setContent(html_e7504c11d2afc9c5bb9dda83e09bc96c);
+            
+        
+
+        circle_478ebaf741bd52ed265d4e593861594d.bindPopup(popup_04f6b64ed3d3cbec892c6e4bfdb453fc)
+        ;
+
+        
+    
+    
+            var circle_39373fbcf5bb020f9e6dd9624d9df884 = L.circle(
+                [20.8377, 85.101],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_d1402d05b1e063ce3419b50328688343 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d2360300c890d340610b1dfc726015 = $(`<div id="html_d2d2360300c890d340610b1dfc726015" style="width: 100.0%; height: 100.0%;">JINDAL STEEL POWER LIMITED - Angul: 6.0 Mt</div>`)[0];
+                popup_d1402d05b1e063ce3419b50328688343.setContent(html_d2d2360300c890d340610b1dfc726015);
+            
+        
+
+        circle_39373fbcf5bb020f9e6dd9624d9df884.bindPopup(popup_d1402d05b1e063ce3419b50328688343)
+        ;
+
+        
+    
+    
+            var circle_51fc9aea0041702828892e4227b83644 = L.circle(
+                [20.7077, 85.221],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_79443471ce7baa194f3d904508957b67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_134d76b3d6275aa1ab766a34775858a9 = $(`<div id="html_134d76b3d6275aa1ab766a34775858a9" style="width: 100.0%; height: 100.0%;">TATA STEEL LIMITED - Meramandali: 5.6 Mt</div>`)[0];
+                popup_79443471ce7baa194f3d904508957b67.setContent(html_134d76b3d6275aa1ab766a34775858a9);
+            
+        
+
+        circle_51fc9aea0041702828892e4227b83644.bindPopup(popup_79443471ce7baa194f3d904508957b67)
+        ;
+
+        
+    
+    
+            var circle_5ac97df1de4b9729b137476982789809 = L.circle(
+                [21.1938, 81.3509],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f3fc187c2927845593b53cc6d458d430 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e153704589a5595166d40dfc9d742e9a = $(`<div id="html_e153704589a5595166d40dfc9d742e9a" style="width: 100.0%; height: 100.0%;">STEEL AUTHORITY OF INDIA LIMITED - Bhilai: 4.7 Mt</div>`)[0];
+                popup_f3fc187c2927845593b53cc6d458d430.setContent(html_e153704589a5595166d40dfc9d742e9a);
+            
+        
+
+        circle_5ac97df1de4b9729b137476982789809.bindPopup(popup_f3fc187c2927845593b53cc6d458d430)
+        ;
+
+        
+    
+    
+            var circle_e44017c1e98e87092b340b2e7b25eaf1 = L.circle(
+                [23.6693, 86.1511],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23250.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_52931caa57db27a57aa74fc74b86c14b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7de0e433728a14a6e8115f5ab33fa54 = $(`<div id="html_b7de0e433728a14a6e8115f5ab33fa54" style="width: 100.0%; height: 100.0%;">STEEL AUTHORITY OF INDIA LIMITED - Bokaro: 4.65 Mt</div>`)[0];
+                popup_52931caa57db27a57aa74fc74b86c14b.setContent(html_b7de0e433728a14a6e8115f5ab33fa54);
+            
+        
+
+        circle_e44017c1e98e87092b340b2e7b25eaf1.bindPopup(popup_52931caa57db27a57aa74fc74b86c14b)
+        ;
+
+        
+    
+    
+            var circle_26b9726dbcf1e941a6a0a7b686ea5c5c = L.circle(
+                [22.227, 84.8536],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18205.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_b0f1bb59d161db87a16b3e1a81ce91d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_338f1512a3221b07b8d64b91094fbe59 = $(`<div id="html_338f1512a3221b07b8d64b91094fbe59" style="width: 100.0%; height: 100.0%;">STEEL AUTHORITY OF INDIA LIMITED - Rourkela: 3.641 Mt</div>`)[0];
+                popup_b0f1bb59d161db87a16b3e1a81ce91d0.setContent(html_338f1512a3221b07b8d64b91094fbe59);
+            
+        
+
+        circle_26b9726dbcf1e941a6a0a7b686ea5c5c.bindPopup(popup_b0f1bb59d161db87a16b3e1a81ce91d0)
+        ;
+
+        
+    
+    
+            var circle_592cec0254b38df65b4db0ccbfb5ee7a = L.circle(
+                [21.8974, 83.3941],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_d1022ef1b1513db0c8c628ca0afa3db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e37f4bf88853a28d62bc6f42c4c2f8 = $(`<div id="html_f1e37f4bf88853a28d62bc6f42c4c2f8" style="width: 100.0%; height: 100.0%;">JINDAL STEEL POWER LIMITED - Raigarh: 3.6 Mt</div>`)[0];
+                popup_d1022ef1b1513db0c8c628ca0afa3db9.setContent(html_f1e37f4bf88853a28d62bc6f42c4c2f8);
+            
+        
+
+        circle_592cec0254b38df65b4db0ccbfb5ee7a.bindPopup(popup_d1022ef1b1513db0c8c628ca0afa3db9)
+        ;
+
+        
+    
+    
+            var circle_583870ee02147faa17d6e3097f516440 = L.circle(
+                [20.7267, 85.9182],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_ee9bc3fec12ad01be39fbfc8b8831877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ad67c91e2f303e7d453ea4b94f84ccc = $(`<div id="html_6ad67c91e2f303e7d453ea4b94f84ccc" style="width: 100.0%; height: 100.0%;">JSW STEEL LIMITED - Bhushan Power and Steel Limited (BPSL): 3.5 Mt</div>`)[0];
+                popup_ee9bc3fec12ad01be39fbfc8b8831877.setContent(html_6ad67c91e2f303e7d453ea4b94f84ccc);
+            
+        
+
+        circle_583870ee02147faa17d6e3097f516440.bindPopup(popup_ee9bc3fec12ad01be39fbfc8b8831877)
+        ;
+
+        
+    
+    
+            var circle_eb85891595a68d894674cc9742f3103e = L.circle(
+                [19.269, 82.0656],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_d5a7c61a64428afe41f3520c9f52e5a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05f025913d4052c7f8cf40f8cf8de8df = $(`<div id="html_05f025913d4052c7f8cf40f8cf8de8df" style="width: 100.0%; height: 100.0%;">NMDC STEEL LIMITED  - Nagarnar: 3.0 Mt</div>`)[0];
+                popup_d5a7c61a64428afe41f3520c9f52e5a1.setContent(html_05f025913d4052c7f8cf40f8cf8de8df);
+            
+        
+
+        circle_eb85891595a68d894674cc9742f3103e.bindPopup(popup_d5a7c61a64428afe41f3520c9f52e5a1)
+        ;
+
+        
+    
+    
+            var circle_d359d30fab87c51a893e8beb08f211d2 = L.circle(
+                [20.9517, 85.0985],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_14ebb4477f0ef59135036c57903ab469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2e3d13d2e8d1437bc62fcfd3cc06fd = $(`<div id="html_be2e3d13d2e8d1437bc62fcfd3cc06fd" style="width: 100.0%; height: 100.0%;">TATA STEEL LIMITED - Kalinganagar: 3.0 Mt</div>`)[0];
+                popup_14ebb4477f0ef59135036c57903ab469.setContent(html_be2e3d13d2e8d1437bc62fcfd3cc06fd);
+            
+        
+
+        circle_d359d30fab87c51a893e8beb08f211d2.bindPopup(popup_14ebb4477f0ef59135036c57903ab469)
+        ;
+
+        
+    
+    
+            var circle_c6300b01a1286e7f23e78d09bc9d1b9c = L.circle(
+                [23.5204, 87.3119],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_4f6e13902cc4ef2d7486743a4df1cea4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_388f92c03bf79d47a0518fb20bd8f554 = $(`<div id="html_388f92c03bf79d47a0518fb20bd8f554" style="width: 100.0%; height: 100.0%;">STEEL AUTHORITY OF INDIA LIMITED - Durgapur: 2.7 Mt</div>`)[0];
+                popup_4f6e13902cc4ef2d7486743a4df1cea4.setContent(html_388f92c03bf79d47a0518fb20bd8f554);
+            
+        
+
+        circle_c6300b01a1286e7f23e78d09bc9d1b9c.bindPopup(popup_4f6e13902cc4ef2d7486743a4df1cea4)
+        ;
+
+        
+    
+    
+            var circle_087fa57774db011ada3cbde6dbd19fef = L.circle(
+                [23.6855, 87.0872],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_e73b6cd3810c12aaf5ee458634522da8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_648b3fc51f565eda3def3c1921db884c = $(`<div id="html_648b3fc51f565eda3def3c1921db884c" style="width: 100.0%; height: 100.0%;">STEEL AUTHORITY OF INDIA LIMITED - IISCO: 2.5 Mt</div>`)[0];
+                popup_e73b6cd3810c12aaf5ee458634522da8.setContent(html_648b3fc51f565eda3def3c1921db884c);
+            
+        
+
+        circle_087fa57774db011ada3cbde6dbd19fef.bindPopup(popup_e73b6cd3810c12aaf5ee458634522da8)
+        ;
+
+        
+    
+    
+            var circle_8f89a12ed7c324879b14343b15b0c3a5 = L.circle(
+                [22.5575, 88.3455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f16ffd3d80dca5fe7d604c867fb60afe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_960c0377a135c7bc55e5e4b43917ac9b = $(`<div id="html_960c0377a135c7bc55e5e4b43917ac9b" style="width: 100.0%; height: 100.0%;">ORISSA ALLOY STEEL PRIVATE LIMITED - Jitusol: 1.8 Mt</div>`)[0];
+                popup_f16ffd3d80dca5fe7d604c867fb60afe.setContent(html_960c0377a135c7bc55e5e4b43917ac9b);
+            
+        
+
+        circle_8f89a12ed7c324879b14343b15b0c3a5.bindPopup(popup_f16ffd3d80dca5fe7d604c867fb60afe)
+        ;
+
+        
+    
+    
+            var circle_f567f1f6a015854757bb47093219b63d = L.circle(
+                [23.6665, 85.2732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_25c5cc5c25f8e7f406d0155477929c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5c64246a879448fa8f25c71c6f4ef27 = $(`<div id="html_d5c64246a879448fa8f25c71c6f4ef27" style="width: 100.0%; height: 100.0%;">JINDAL STEEL POWER LIMITED - Patratu: 1.6 Mt</div>`)[0];
+                popup_25c5cc5c25f8e7f406d0155477929c76.setContent(html_d5c64246a879448fa8f25c71c6f4ef27);
+            
+        
+
+        circle_f567f1f6a015854757bb47093219b63d.bindPopup(popup_25c5cc5c25f8e7f406d0155477929c76)
+        ;
+
+        
+    
+    
+            var circle_f1e9aa0933c346e914a4d223d7493c8c = L.circle(
+                [23.6085, 86.0001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_6638de4856c9c7786e14af9e0373feb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1255e3296fe9fff4efa4a0dc5a1a5d62 = $(`<div id="html_1255e3296fe9fff4efa4a0dc5a1a5d62" style="width: 100.0%; height: 100.0%;">ELECTROSTEEL STEELS LIMITED - Bhagabandh: 1.5 Mt</div>`)[0];
+                popup_6638de4856c9c7786e14af9e0373feb6.setContent(html_1255e3296fe9fff4efa4a0dc5a1a5d62);
+            
+        
+
+        circle_f1e9aa0933c346e914a4d223d7493c8c.bindPopup(popup_6638de4856c9c7786e14af9e0373feb6)
+        ;
+
+        
+    
+    
+            var circle_cb4749af2e2b6965ade7cab12ddf7ca4 = L.circle(
+                [23.7051, 87.0789],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_21d1e0b4bc1debeda65d71e867744c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86510fd3bdafb9aa7b744f9a4d3f90cb = $(`<div id="html_86510fd3bdafb9aa7b744f9a4d3f90cb" style="width: 100.0%; height: 100.0%;">RASHMI ALLOY STEEL PRIVATE LIMITED - Jamuria: 1.5 Mt</div>`)[0];
+                popup_21d1e0b4bc1debeda65d71e867744c74.setContent(html_86510fd3bdafb9aa7b744f9a4d3f90cb);
+            
+        
+
+        circle_cb4749af2e2b6965ade7cab12ddf7ca4.bindPopup(popup_21d1e0b4bc1debeda65d71e867744c74)
+        ;
+
+        
+    
+    
+            var circle_f99623d0f1b1c9163580caec1a901f41 = L.circle(
+                [21.2514, 81.6296],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_b5c2c999cec23c4759e4d6c2a5dc819c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d81afac69e518ed5147612842c294783 = $(`<div id="html_d81afac69e518ed5147612842c294783" style="width: 100.0%; height: 100.0%;">JAYASWAL NECO INDUSTRIES LIMITED - Raipur: 1.2 Mt</div>`)[0];
+                popup_b5c2c999cec23c4759e4d6c2a5dc819c.setContent(html_d81afac69e518ed5147612842c294783);
+            
+        
+
+        circle_f99623d0f1b1c9163580caec1a901f41.bindPopup(popup_b5c2c999cec23c4759e4d6c2a5dc819c)
+        ;
+
+        
+    
+    
+            var circle_a50c4c5be3cec505b3faa8de0d6110d7 = L.circle(
+                [21.8974, 83.3941],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_7f403c269d203666576ee36bba6cb0dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d7f4b108fe5ef56464f987b7c66e86e = $(`<div id="html_4d7f4b108fe5ef56464f987b7c66e86e" style="width: 100.0%; height: 100.0%;">JSW STEEL LIMITED - Raigarh and Raipur plants (JSW Ispat Special Steel Products Limited, a JV): 1.2 Mt</div>`)[0];
+                popup_7f403c269d203666576ee36bba6cb0dc.setContent(html_4d7f4b108fe5ef56464f987b7c66e86e);
+            
+        
+
+        circle_a50c4c5be3cec505b3faa8de0d6110d7.bindPopup(popup_7f403c269d203666576ee36bba6cb0dc)
+        ;
+
+        
+    
+    
+            var circle_1f4f42df6ad819d446339d9e2b81150e = L.circle(
+                [15.2695, 76.3871],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_07fd5ddb4e67bc4b0a34069f4f0365ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9b35c01f87805bd82f742ce2965405a = $(`<div id="html_d9b35c01f87805bd82f742ce2965405a" style="width: 100.0%; height: 100.0%;">MSPL LIMITED - Hospet: 1.2 Mt</div>`)[0];
+                popup_07fd5ddb4e67bc4b0a34069f4f0365ff.setContent(html_d9b35c01f87805bd82f742ce2965405a);
+            
+        
+
+        circle_1f4f42df6ad819d446339d9e2b81150e.bindPopup(popup_07fd5ddb4e67bc4b0a34069f4f0365ff)
+        ;
+
+        
+    
+    
+            var circle_df3df2f138b469a463abd371875364fc = L.circle(
+                [11.6643, 78.146],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_b64da273be2db0bbb0219c66b517ecee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4190dbb6569eefbffe43389ee343c87b = $(`<div id="html_4190dbb6569eefbffe43389ee343c87b" style="width: 100.0%; height: 100.0%;">JSW STEEL LIMITED (DRI / HBI) - Salav: 1.0 Mt</div>`)[0];
+                popup_b64da273be2db0bbb0219c66b517ecee.setContent(html_4190dbb6569eefbffe43389ee343c87b);
+            
+        
+
+        circle_df3df2f138b469a463abd371875364fc.bindPopup(popup_b64da273be2db0bbb0219c66b517ecee)
+        ;
+
+        
+    
+    
+            var circle_a09d32d95d8268d0e788303d0d949f47 = L.circle(
+                [22.7746, 86.1336],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_25890428fee0112943599c14e158e715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357ea2d1261e59f2500519c7d5ad3d1d = $(`<div id="html_357ea2d1261e59f2500519c7d5ad3d1d" style="width: 100.0%; height: 100.0%;">TATA STEEL LIMITED - Gamharia: 1.0 Mt</div>`)[0];
+                popup_25890428fee0112943599c14e158e715.setContent(html_357ea2d1261e59f2500519c7d5ad3d1d);
+            
+        
+
+        circle_a09d32d95d8268d0e788303d0d949f47.bindPopup(popup_25890428fee0112943599c14e158e715)
+        ;
+
+        
+    
+    
+            var circle_0d56d8c3a2c6a96674c9c893c68bc9f7 = L.circle(
+                [20.2656, 86.1466],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_ee4faf15388006677dadc376ff62dcd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ded73e36bfdd035aed9f17c30128ed56 = $(`<div id="html_ded73e36bfdd035aed9f17c30128ed56" style="width: 100.0%; height: 100.0%;">TATA STEEL LIMITED - Neelachal Ispat: 1.0 Mt</div>`)[0];
+                popup_ee4faf15388006677dadc376ff62dcd5.setContent(html_ded73e36bfdd035aed9f17c30128ed56);
+            
+        
+
+        circle_0d56d8c3a2c6a96674c9c893c68bc9f7.bindPopup(popup_ee4faf15388006677dadc376ff62dcd5)
+        ;
+
+        
+    
+    
+            var circle_13dafeed13844c3014d5b9d4b8dd3ca6 = L.circle(
+                [22.7746, 86.1336],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4750.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_fa6cd9528e558a09103128c5998cd50a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d243d145c9b87e61167d5b7e25e6bb2c = $(`<div id="html_d243d145c9b87e61167d5b7e25e6bb2c" style="width: 100.0%; height: 100.0%;">TATA STEEL LONG PRODUCTS LIMITED - Gamharia: 0.95 Mt</div>`)[0];
+                popup_fa6cd9528e558a09103128c5998cd50a.setContent(html_d243d145c9b87e61167d5b7e25e6bb2c);
+            
+        
+
+        circle_13dafeed13844c3014d5b9d4b8dd3ca6.bindPopup(popup_fa6cd9528e558a09103128c5998cd50a)
+        ;
+
+        
+    
+    
+            var circle_f3d8ffabab5266d441dd1fa933920c5d = L.circle(
+                [15.3471, 76.1542],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3250.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_3cf9f326d25dd4b8cc54451457fdb533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27b6054bd7407364b1eb5b98142506a0 = $(`<div id="html_27b6054bd7407364b1eb5b98142506a0" style="width: 100.0%; height: 100.0%;">KALYANI STEELS LIMITED - Koppal: 0.65 Mt</div>`)[0];
+                popup_3cf9f326d25dd4b8cc54451457fdb533.setContent(html_27b6054bd7407364b1eb5b98142506a0);
+            
+        
+
+        circle_f3d8ffabab5266d441dd1fa933920c5d.bindPopup(popup_3cf9f326d25dd4b8cc54451457fdb533)
+        ;
+
+        
+    
+    
+            var circle_359c2c40f863d78c764aa66d52fa6f13 = L.circle(
+                [23.3301, 86.3566],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_9739a91a31a6d062a6c886f8adff1d6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77b78253158c195ffe431e4b49cf6838 = $(`<div id="html_77b78253158c195ffe431e4b49cf6838" style="width: 100.0%; height: 100.0%;">JAI BALAJI INDUSTRIES LIMITED - Purulia: 0.6 Mt</div>`)[0];
+                popup_9739a91a31a6d062a6c886f8adff1d6c.setContent(html_77b78253158c195ffe431e4b49cf6838);
+            
+        
+
+        circle_359c2c40f863d78c764aa66d52fa6f13.bindPopup(popup_9739a91a31a6d062a6c886f8adff1d6c)
+        ;
+
+        
+    
+    
+            var circle_fa8b077a06e7c1c3eb416fc53aee490c = L.circle(
+                [15.1394, 76.9214],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2810.0000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_8fa74ad7d415410ef8cc1586e2055c4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7191847ac25554e70f1e4eaf393705c8 = $(`<div id="html_7191847ac25554e70f1e4eaf393705c8" style="width: 100.0%; height: 100.0%;">A-ONE STEEL AND ALLOYS PRIVATE LIMITED - Bellary: 0.562 Mt</div>`)[0];
+                popup_8fa74ad7d415410ef8cc1586e2055c4b.setContent(html_7191847ac25554e70f1e4eaf393705c8);
+            
+        
+
+        circle_fa8b077a06e7c1c3eb416fc53aee490c.bindPopup(popup_8fa74ad7d415410ef8cc1586e2055c4b)
+        ;
+
+        
+    
+    
+            var circle_79e5d994c4ce9bb4396afb647707993f = L.circle(
+                [13.7502, 79.7016],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2625.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_d29473b37a8c3f03ecbdc5f93d5503bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cacc464ffc275cdb0fa658e792b062a9 = $(`<div id="html_cacc464ffc275cdb0fa658e792b062a9" style="width: 100.0%; height: 100.0%;">ELECTROSTEEL CASTINGS LIMITED - Srikalahasthi: 0.525 Mt</div>`)[0];
+                popup_d29473b37a8c3f03ecbdc5f93d5503bf.setContent(html_cacc464ffc275cdb0fa658e792b062a9);
+            
+        
+
+        circle_79e5d994c4ce9bb4396afb647707993f.bindPopup(popup_d29473b37a8c3f03ecbdc5f93d5503bf)
+        ;
+
+        
+    
+    
+            var circle_a68af4c9526312f53a286dfdd970ee14 = L.circle(
+                [22.360664, 87.295932],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_b5bceb59e2cfaf93f4fa0602137dae53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f525bafa93b49a79dcca2958e0df2261 = $(`<div id="html_f525bafa93b49a79dcca2958e0df2261" style="width: 100.0%; height: 100.0%;">RASHMI ALLOY STEEL PRIVATE LIMITED - Gokulpur: 0.5 Mt</div>`)[0];
+                popup_b5bceb59e2cfaf93f4fa0602137dae53.setContent(html_f525bafa93b49a79dcca2958e0df2261);
+            
+        
+
+        circle_a68af4c9526312f53a286dfdd970ee14.bindPopup(popup_b5bceb59e2cfaf93f4fa0602137dae53)
+        ;
+
+        
+    
+    
+            var circle_bc0bb952fd8405fa92b836ad8e646786 = L.circle(
+                [13.6102, 77.5171],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1875.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_a9ddcfd61f08bba66cd5daf57c8418c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7df22d453bd6462120095a47832ba07 = $(`<div id="html_d7df22d453bd6462120095a47832ba07" style="width: 100.0%; height: 100.0%;">A-ONE STEEL AND ALLOYS PRIVATE LIMITED - Gauribidanur: 0.375 Mt</div>`)[0];
+                popup_a9ddcfd61f08bba66cd5daf57c8418c7.setContent(html_d7df22d453bd6462120095a47832ba07);
+            
+        
+
+        circle_bc0bb952fd8405fa92b836ad8e646786.bindPopup(popup_a9ddcfd61f08bba66cd5daf57c8418c7)
+        ;
+
+        
+    
+    
+            var circle_496be36d83d5ffee635d89083a5871dd = L.circle(
+                [21.8974, 83.3941],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1800.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_7f1e69bc3255d57614699c588adabd75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdd105f6ca5354b9b67761442632a517 = $(`<div id="html_fdd105f6ca5354b9b67761442632a517" style="width: 100.0%; height: 100.0%;">NALWA STEEL POWER LTD - Raigarh: 0.36 Mt</div>`)[0];
+                popup_7f1e69bc3255d57614699c588adabd75.setContent(html_fdd105f6ca5354b9b67761442632a517);
+            
+        
+
+        circle_496be36d83d5ffee635d89083a5871dd.bindPopup(popup_7f1e69bc3255d57614699c588adabd75)
+        ;
+
+        
+    
+    
+            var circle_d3ada468b418fee7c5688b02733f9412 = L.circle(
+                [23.5204, 87.3119],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1650.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_e0c368aca43f639a0adeaf856c2b4fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc5a4ef26acdd46d790e29d4a2a06c3f = $(`<div id="html_cc5a4ef26acdd46d790e29d4a2a06c3f" style="width: 100.0%; height: 100.0%;">JAI BALAJI INDUSTRIES LIMITED - Durgapur: 0.33 Mt</div>`)[0];
+                popup_e0c368aca43f639a0adeaf856c2b4fe0.setContent(html_cc5a4ef26acdd46d790e29d4a2a06c3f);
+            
+        
+
+        circle_d3ada468b418fee7c5688b02733f9412.bindPopup(popup_e0c368aca43f639a0adeaf856c2b4fe0)
+        ;
+
+        
+    
+    
+            var circle_605f1207afea6a0ca4ee496cb3211334 = L.circle(
+                [14.9083, 78.0103],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1625.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_54dbbb5ffcfd976c9e6daac69ab07051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26614692a0dd246c5bbb585369f48471 = $(`<div id="html_26614692a0dd246c5bbb585369f48471" style="width: 100.0%; height: 100.0%;">ARJAS STEEL PRIVATE LIMITED - Tadipatri: 0.325 Mt</div>`)[0];
+                popup_54dbbb5ffcfd976c9e6daac69ab07051.setContent(html_26614692a0dd246c5bbb585369f48471);
+            
+        
+
+        circle_605f1207afea6a0ca4ee496cb3211334.bindPopup(popup_54dbbb5ffcfd976c9e6daac69ab07051)
+        ;
+
+        
+    
+    
+            var circle_a6866eabfa90e90209d0a7e6062729d3 = L.circle(
+                [23.241, 69.6669],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1440.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_b02c6f36ae91d86ecdaf370891fff35f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a9d02f0de856c17bb286b3151b18d9 = $(`<div id="html_52a9d02f0de856c17bb286b3151b18d9" style="width: 100.0%; height: 100.0%;">WELSPUN METALLICS LIMITED - Bhuj: 0.288 Mt</div>`)[0];
+                popup_b02c6f36ae91d86ecdaf370891fff35f.setContent(html_52a9d02f0de856c17bb286b3151b18d9);
+            
+        
+
+        circle_a6866eabfa90e90209d0a7e6062729d3.bindPopup(popup_b02c6f36ae91d86ecdaf370891fff35f)
+        ;
+
+        
+    
+    
+            var circle_efc9dd0cae66c58f29acb6517ca7b079 = L.circle(
+                [22.6146, 88.3742],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1400.0000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_563d426774dc42415fffb033c9b06100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88cc4d8f30ed912b201ba3ab0e89cbb = $(`<div id="html_d88cc4d8f30ed912b201ba3ab0e89cbb" style="width: 100.0%; height: 100.0%;">ELECTROSTEEL CASTINGS LIMITED - Kardah: 0.28 Mt</div>`)[0];
+                popup_563d426774dc42415fffb033c9b06100.setContent(html_d88cc4d8f30ed912b201ba3ab0e89cbb);
+            
+        
+
+        circle_efc9dd0cae66c58f29acb6517ca7b079.bindPopup(popup_563d426774dc42415fffb033c9b06100)
+        ;
+
+        
+    
+    
+            var circle_2e0f58560360428e23478a70e4cfff2c = L.circle(
+                [13.8281, 77.492],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_fbff0ecb99f27fa000058976fb850cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64c88c9df1a5e0739f6d87641a3c22e7 = $(`<div id="html_64c88c9df1a5e0739f6d87641a3c22e7" style="width: 100.0%; height: 100.0%;">A-ONE STEEL AND ALLOYS PRIVATE LIMITED - Hindupur: 0.12 Mt</div>`)[0];
+                popup_fbff0ecb99f27fa000058976fb850cf5.setContent(html_64c88c9df1a5e0739f6d87641a3c22e7);
+            
+        
+
+        circle_2e0f58560360428e23478a70e4cfff2c.bindPopup(popup_fbff0ecb99f27fa000058976fb850cf5)
+        ;
+
+        
+    
+    
+            var circle_ea43018260460ad1ad50ccb0605735b0 = L.circle(
+                [22.227, 84.8536],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 460.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_4779ce79fb22aeb952e77567406cb987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c613af06b767b060efa4b364fd29a2df = $(`<div id="html_c613af06b767b060efa4b364fd29a2df" style="width: 100.0%; height: 100.0%;">JAI BALAJI INDUSTRIES LIMITED - Rourkela: 0.092 Mt</div>`)[0];
+                popup_4779ce79fb22aeb952e77567406cb987.setContent(html_c613af06b767b060efa4b364fd29a2df);
+            
+        
+
+        circle_ea43018260460ad1ad50ccb0605735b0.bindPopup(popup_4779ce79fb22aeb952e77567406cb987)
+        ;
+
+        
+    
+    
+            var circle_26056466d1beee689590d8e6b823bb2b = L.circle(
+                [20.667, 79.35],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_5028c2258fda0ff6cd247feafa527476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e1416985b5587852893f142ce57295b = $(`<div id="html_9e1416985b5587852893f142ce57295b" style="width: 100.0%; height: 100.0%;">SUNFLAG IRON STEEL COMPANY LIMITED  - Warthi: 0.0 Mt</div>`)[0];
+                popup_5028c2258fda0ff6cd247feafa527476.setContent(html_9e1416985b5587852893f142ce57295b);
+            
+        
+
+        circle_26056466d1beee689590d8e6b823bb2b.bindPopup(popup_5028c2258fda0ff6cd247feafa527476)
+        ;
+
+        
+    
+    
+            var circle_120904d93ad94c68b70bf8b3447301fb = L.circle(
+                [18.7098, 72.9412],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_95da23cbe192ea88efb0c9b53b473245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569b5773ddc3167a1f8ba813c0ee2500 = $(`<div id="html_569b5773ddc3167a1f8ba813c0ee2500" style="width: 100.0%; height: 100.0%;">AMBA RIVER COKE LIMITED / JSW / DOLVI COKE PROJECTS LIMITED - Dolvi: 3.5 Mt</div>`)[0];
+                popup_95da23cbe192ea88efb0c9b53b473245.setContent(html_569b5773ddc3167a1f8ba813c0ee2500);
+            
+        
+
+        circle_120904d93ad94c68b70bf8b3447301fb.bindPopup(popup_95da23cbe192ea88efb0c9b53b473245)
+        ;
+
+        
+    
+    
+            var circle_f8792e633923f01d0ce08158805e473a = L.circle(
+                [22.8392, 69.7214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5200.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_3154a3626031134137545da2d40b542c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8f6bfecfa2867bb502121eaaf2afe20 = $(`<div id="html_f8f6bfecfa2867bb502121eaaf2afe20" style="width: 100.0%; height: 100.0%;">SAURASHTRA FUELS PVT LTD - Mundra: 1.04 Mt</div>`)[0];
+                popup_3154a3626031134137545da2d40b542c.setContent(html_f8f6bfecfa2867bb502121eaaf2afe20);
+            
+        
+
+        circle_f8792e633923f01d0ce08158805e473a.bindPopup(popup_3154a3626031134137545da2d40b542c)
+        ;
+
+        
+    
+    
+            var circle_d3a771a81735af55146285e03bcb845a = L.circle(
+                [22.346, 87.2314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_00067cb87b3ce65fd2c889a54a06f219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5fa19e3e671527e16017bfceb3ec0e = $(`<div id="html_2c5fa19e3e671527e16017bfceb3ec0e" style="width: 100.0%; height: 100.0%;">BENGAL ENERGY LIMITED - Kharagpur: 0.6 Mt</div>`)[0];
+                popup_00067cb87b3ce65fd2c889a54a06f219.setContent(html_2c5fa19e3e671527e16017bfceb3ec0e);
+            
+        
+
+        circle_d3a771a81735af55146285e03bcb845a.bindPopup(popup_00067cb87b3ce65fd2c889a54a06f219)
+        ;
+
+        
+    
+    
+            var circle_f4626ef530b672d43fade0f4bd751e80 = L.circle(
+                [13.0815, 80.2921],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1690.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_6247bb1e451d929d737d9dd39104d6e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2153a8f3978b07864cb006419c0f1976 = $(`<div id="html_2153a8f3978b07864cb006419c0f1976" style="width: 100.0%; height: 100.0%;">EARTH ELEMENTS DEVELOPMENT COMPANY / MAHAVIR COAL WASHERIES - Chennai Port: 0.338 Mt</div>`)[0];
+                popup_6247bb1e451d929d737d9dd39104d6e5.setContent(html_2153a8f3978b07864cb006419c0f1976);
+            
+        
+
+        circle_f4626ef530b672d43fade0f4bd751e80.bindPopup(popup_6247bb1e451d929d737d9dd39104d6e5)
+        ;
+
+        
+    
+    
+            var circle_1e8703921158a617cbbbdf5b8fef2463 = L.circle(
+                [22.4707, 70.0577],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1245.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f58639b1204454e86d215dd621ba1312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066d9f536744c7c3b8bff136f1bb0314 = $(`<div id="html_066d9f536744c7c3b8bff136f1bb0314" style="width: 100.0%; height: 100.0%;">SHREEJI COKE AND ENERGY PRIVATE LIMITED - Jamnagar: 0.249 Mt</div>`)[0];
+                popup_f58639b1204454e86d215dd621ba1312.setContent(html_066d9f536744c7c3b8bff136f1bb0314);
+            
+        
+
+        circle_1e8703921158a617cbbbdf5b8fef2463.bindPopup(popup_f58639b1204454e86d215dd621ba1312)
+        ;
+
+        
+    
+    
+            var circle_d6776104dbad168de764653781154bab = L.circle(
+                [22.4163, 69.0544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_41afec8b5aa8f3630c43d8f05b47f85f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08961aa2b66a864f6b77be6f77fcec1d = $(`<div id="html_08961aa2b66a864f6b77be6f77fcec1d" style="width: 100.0%; height: 100.0%;">B L A COKE PRIVATE LIMITED - Mithapur: 0.2 Mt</div>`)[0];
+                popup_41afec8b5aa8f3630c43d8f05b47f85f.setContent(html_08961aa2b66a864f6b77be6f77fcec1d);
+            
+        
+
+        circle_d6776104dbad168de764653781154bab.bindPopup(popup_41afec8b5aa8f3630c43d8f05b47f85f)
+        ;
+
+        
+    
+    
+            var circle_46c32179f73dde9981e280880377e333 = L.circle(
+                [21.6417, 69.6293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_e957290ef127a7d06f4d6bb95a5ed613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a89785796f62c6aa2fa772219bd91d20 = $(`<div id="html_a89785796f62c6aa2fa772219bd91d20" style="width: 100.0%; height: 100.0%;">SAURASHTRA FUELS PVT LTD - Portbander: 0.2 Mt</div>`)[0];
+                popup_e957290ef127a7d06f4d6bb95a5ed613.setContent(html_a89785796f62c6aa2fa772219bd91d20);
+            
+        
+
+        circle_46c32179f73dde9981e280880377e333.bindPopup(popup_e957290ef127a7d06f4d6bb95a5ed613)
+        ;
+
+        
+    
+    
+            var circle_e888f2eba40dae22efa9d6240f8e2802 = L.circle(
+                [23.733, 68.9529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_c207d16153768161527e614cd992dcfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f53d87f6000db50767b6335a458d7e = $(`<div id="html_84f53d87f6000db50767b6335a458d7e" style="width: 100.0%; height: 100.0%;">SIMPLEX COKE AND REFRACTORY PRIVATE LIMITED - Kutch: 0.2 Mt</div>`)[0];
+                popup_c207d16153768161527e614cd992dcfb.setContent(html_84f53d87f6000db50767b6335a458d7e);
+            
+        
+
+        circle_e888f2eba40dae22efa9d6240f8e2802.bindPopup(popup_c207d16153768161527e614cd992dcfb)
+        ;
+
+        
+    
+    
+            var circle_4b1e2d12bfa00a5618dd08bf7af15bbd = L.circle(
+                [23.2981, 70.3428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 720.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f31b878ef97d4748f34cdb9caee91d78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a2f4e7cb6ca79e4c10869d20546dfe3 = $(`<div id="html_4a2f4e7cb6ca79e4c10869d20546dfe3" style="width: 100.0%; height: 100.0%;">SHREE ARIHANT TRADE LINKS I PVT LTD - Bhachau: 0.144 Mt</div>`)[0];
+                popup_f31b878ef97d4748f34cdb9caee91d78.setContent(html_4a2f4e7cb6ca79e4c10869d20546dfe3);
+            
+        
+
+        circle_4b1e2d12bfa00a5618dd08bf7af15bbd.bindPopup(popup_f31b878ef97d4748f34cdb9caee91d78)
+        ;
+
+        
+    
+    
+            var circle_d70480bc41c982954b8639be0cf4d75e = L.circle(
+                [22.8392, 69.7214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 540.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_ed2579cf957865de09b0cba83d183c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec55a5126fa560c96f2b7cf28587989 = $(`<div id="html_eec55a5126fa560c96f2b7cf28587989" style="width: 100.0%; height: 100.0%;">CARBON EDGE INDUSTRIES LIMITED - Mundra: 0.108 Mt</div>`)[0];
+                popup_ed2579cf957865de09b0cba83d183c3e.setContent(html_eec55a5126fa560c96f2b7cf28587989);
+            
+        
+
+        circle_d70480bc41c982954b8639be0cf4d75e.bindPopup(popup_ed2579cf957865de09b0cba83d183c3e)
+        ;
+
+        
+    
+    
+            var circle_2afc21ef31a0fb09dfd32893c20980fd = L.circle(
+                [23.2981, 70.3428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_fabda78c497297765cc336ad88ed9fa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4bf71368e5b7efd022629b41ea8d84b = $(`<div id="html_c4bf71368e5b7efd022629b41ea8d84b" style="width: 100.0%; height: 100.0%;">NARAYANI COKE PRIVATE LIMITED - Bhachau: 0.1 Mt</div>`)[0];
+                popup_fabda78c497297765cc336ad88ed9fa7.setContent(html_c4bf71368e5b7efd022629b41ea8d84b);
+            
+        
+
+        circle_2afc21ef31a0fb09dfd32893c20980fd.bindPopup(popup_fabda78c497297765cc336ad88ed9fa7)
+        ;
+
+        
+    
+    
+            var circle_3d12585dfccf1e9c21db4a913a4b4618 = L.circle(
+                [21.1938, 81.3509],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 499.99999999999994, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_e749ac948d39f3af5944a4510ee88108 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db83b8ae6a28e99c9cd929c4ecd69af1 = $(`<div id="html_db83b8ae6a28e99c9cd929c4ecd69af1" style="width: 100.0%; height: 100.0%;">VIMLA FUELS METALS PRIVATE LIMITED - Bhilai: 0.09999999999999999 Mt</div>`)[0];
+                popup_e749ac948d39f3af5944a4510ee88108.setContent(html_db83b8ae6a28e99c9cd929c4ecd69af1);
+            
+        
+
+        circle_3d12585dfccf1e9c21db4a913a4b4618.bindPopup(popup_e749ac948d39f3af5944a4510ee88108)
+        ;
+
+        
+    
+    
+            var circle_964d9ae06fc28448cbaf104a6a8f9b47 = L.circle(
+                [23.5204, 87.3119],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 499.99999999999994, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_e0e81fa6ae147972f13b6060d951e2ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af4bc2f4d095cf2ada86a8767189ee5a = $(`<div id="html_af4bc2f4d095cf2ada86a8767189ee5a" style="width: 100.0%; height: 100.0%;">VIMLA FUELS METALS PRIVATE LIMITED - Durgapur: 0.09999999999999999 Mt</div>`)[0];
+                popup_e0e81fa6ae147972f13b6060d951e2ae.setContent(html_af4bc2f4d095cf2ada86a8767189ee5a);
+            
+        
+
+        circle_964d9ae06fc28448cbaf104a6a8f9b47.bindPopup(popup_e0e81fa6ae147972f13b6060d951e2ae)
+        ;
+
+        
+    
+    
+            var circle_476de8548c629cc2f2700e9ae702f34d = L.circle(
+                [23.0333, 70.2167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 499.99999999999994, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_422bc5ba0d75dae171dead5fd2318552 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2308a4417392f2169a7183ccdeade319 = $(`<div id="html_2308a4417392f2169a7183ccdeade319" style="width: 100.0%; height: 100.0%;">VIMLA FUELS METALS PRIVATE LIMITED - Kandla: 0.09999999999999999 Mt</div>`)[0];
+                popup_422bc5ba0d75dae171dead5fd2318552.setContent(html_2308a4417392f2169a7183ccdeade319);
+            
+        
+
+        circle_476de8548c629cc2f2700e9ae702f34d.bindPopup(popup_422bc5ba0d75dae171dead5fd2318552)
+        ;
+
+        
+    
+    
+            var circle_90323736969048d23f4291fd3d8ba28a = L.circle(
+                [23.2981, 70.3428],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 450.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_3803180c2fa66d912123e1ad2acb548b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a528b4c91fad9ca53e8d0acfb92abe = $(`<div id="html_a0a528b4c91fad9ca53e8d0acfb92abe" style="width: 100.0%; height: 100.0%;">SU MANGALA COKE PRIVATE LIMITED - Bhachau taluka: 0.09 Mt</div>`)[0];
+                popup_3803180c2fa66d912123e1ad2acb548b.setContent(html_a0a528b4c91fad9ca53e8d0acfb92abe);
+            
+        
+
+        circle_90323736969048d23f4291fd3d8ba28a.bindPopup(popup_3803180c2fa66d912123e1ad2acb548b)
+        ;
+
+        
+    
+    
+            var circle_bdc13a3abace6cd3d7d6cddf185af595 = L.circle(
+                [23.733, 68.9529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f6b7064993132125c86ed106cc9e037c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_842b43d8c9ef15fd7fc6dd689d481ca1 = $(`<div id="html_842b43d8c9ef15fd7fc6dd689d481ca1" style="width: 100.0%; height: 100.0%;">SAURASHTRA FUELS PVT LTD - Kutch: 0.06 Mt</div>`)[0];
+                popup_f6b7064993132125c86ed106cc9e037c.setContent(html_842b43d8c9ef15fd7fc6dd689d481ca1);
+            
+        
+
+        circle_bdc13a3abace6cd3d7d6cddf185af595.bindPopup(popup_f6b7064993132125c86ed106cc9e037c)
+        ;
+
+        
+    
+    
+            var circle_77828e0d751145c331a843ca35fe5560 = L.circle(
+                [23.0333, 70.2167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 225.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_45fd2027f09941908a167bc00bd4f786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b3b60163f631ee72fbadcec023d5e0 = $(`<div id="html_87b3b60163f631ee72fbadcec023d5e0" style="width: 100.0%; height: 100.0%;">SAURASHTRA FUELS PVT LTD - Kandla: 0.045 Mt</div>`)[0];
+                popup_45fd2027f09941908a167bc00bd4f786.setContent(html_87b3b60163f631ee72fbadcec023d5e0);
+            
+        
+
+        circle_77828e0d751145c331a843ca35fe5560.bindPopup(popup_45fd2027f09941908a167bc00bd4f786)
+        ;
+
+        
+    
+    
+            var circle_2ce0fd277c156e6c6ed5ac4bb842e9c8 = L.circle(
+                [23.1132, 70.0267],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 180.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_4ffbf10e6895c94a4dbc598614bc07ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63df80b4ea74e930213d183dd50754d8 = $(`<div id="html_63df80b4ea74e930213d183dd50754d8" style="width: 100.0%; height: 100.0%;">UNITED COKE PVT LTD - Anjar: 0.036 Mt</div>`)[0];
+                popup_4ffbf10e6895c94a4dbc598614bc07ec.setContent(html_63df80b4ea74e930213d183dd50754d8);
+            
+        
+
+        circle_2ce0fd277c156e6c6ed5ac4bb842e9c8.bindPopup(popup_4ffbf10e6895c94a4dbc598614bc07ec)
+        ;
+
+        
+    
+    
+            var circle_7e436b7bbf6c7c268b2695421f779da7 = L.circle(
+                [19.3142, 84.7941],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_804cc1c3964624565a2c9ebf28e596de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1918aba43f48eb620789909e78bd36df = $(`<div id="html_1918aba43f48eb620789909e78bd36df" style="width: 100.0%; height: 100.0%;">MAHALAXMI ENNORE COKE POWER PRIVATE LIMITED - Brahmapur: 0.018 Mt</div>`)[0];
+                popup_804cc1c3964624565a2c9ebf28e596de.setContent(html_1918aba43f48eb620789909e78bd36df);
+            
+        
+
+        circle_7e436b7bbf6c7c268b2695421f779da7.bindPopup(popup_804cc1c3964624565a2c9ebf28e596de)
+        ;
+
+        
+    
+    
+            var circle_18ba26bc4d2b3022ee32df5c59680227 = L.circle(
+                [26.1445, 91.7362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_f823e1f7fd6596d6b6a3b18597de543f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb103f8dc1e6fecb4efa86622341ec9 = $(`<div id="html_cfb103f8dc1e6fecb4efa86622341ec9" style="width: 100.0%; height: 100.0%;">MAHALAXMI ENNORE COKE POWER PRIVATE LIMITED - Guwahati: 0.018 Mt</div>`)[0];
+                popup_f823e1f7fd6596d6b6a3b18597de543f.setContent(html_cfb103f8dc1e6fecb4efa86622341ec9);
+            
+        
+
+        circle_18ba26bc4d2b3022ee32df5c59680227.bindPopup(popup_f823e1f7fd6596d6b6a3b18597de543f)
+        ;
+
+        
+    
+    
+            var circle_7b12047493a8644aca8b77586b088057 = L.circle(
+                [22.346, 87.2314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_ad767a02c543f881cd998a9f68d81f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fbb3c824d85aa5b50895324b63a1b42 = $(`<div id="html_3fbb3c824d85aa5b50895324b63a1b42" style="width: 100.0%; height: 100.0%;">MAHALAXMI ENNORE COKE POWER PRIVATE LIMITED - Kharagpur: 0.018 Mt</div>`)[0];
+                popup_ad767a02c543f881cd998a9f68d81f06.setContent(html_3fbb3c824d85aa5b50895324b63a1b42);
+            
+        
+
+        circle_7b12047493a8644aca8b77586b088057.bindPopup(popup_ad767a02c543f881cd998a9f68d81f06)
+        ;
+
+        
+    
+    
+            var circle_ecbd822ea1f8c093a95d06fd7b1e4758 = L.circle(
+                [26.4483, 91.441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_3fc4d7400ead3e011f43f2ccfa02697e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e0e940a8ae1a4d2fec1bee93d8daa80 = $(`<div id="html_7e0e940a8ae1a4d2fec1bee93d8daa80" style="width: 100.0%; height: 100.0%;">MAHALAXMI ENNORE COKE POWER PRIVATE LIMITED - Nalbari: 0.018 Mt</div>`)[0];
+                popup_3fc4d7400ead3e011f43f2ccfa02697e.setContent(html_7e0e940a8ae1a4d2fec1bee93d8daa80);
+            
+        
+
+        circle_ecbd822ea1f8c093a95d06fd7b1e4758.bindPopup(popup_3fc4d7400ead3e011f43f2ccfa02697e)
+        ;
+
+        
+    
+    
+            var circle_4c6455d4041d99d8fabc110a8fc8c26a = L.circle(
+                [23.733, 68.9529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a1b43bcd239f1846e85569ea161a4461);
+        
+    
+        var popup_ad6a84dd6ef682eac82689e7a345eb75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4df038d25b4065ba5f5ad8f0b27f12e5 = $(`<div id="html_4df038d25b4065ba5f5ad8f0b27f12e5" style="width: 100.0%; height: 100.0%;">HARSH FUELS PRIVATE LIMITED - Kutch: 0.0 Mt</div>`)[0];
+                popup_ad6a84dd6ef682eac82689e7a345eb75.setContent(html_4df038d25b4065ba5f5ad8f0b27f12e5);
+            
+        
+
+        circle_4c6455d4041d99d8fabc110a8fc8c26a.bindPopup(popup_ad6a84dd6ef682eac82689e7a345eb75)
+        ;
+
+        
+    
+</script>
+</html>
